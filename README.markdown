@@ -266,5 +266,5 @@ Things to run when launching the app for dev
 
     spork
     rails s(erver)
-    autotest
-
+    <!-- autotest -->
+    tail -f log/development.log
