@@ -15,7 +15,7 @@ class UsersController < ApplicationController
     if @user.save
       # Handle a successful save
     else
-      @title = "Sign Up"
+      @title = "Sign up"
       render 'new'
     end
   end
