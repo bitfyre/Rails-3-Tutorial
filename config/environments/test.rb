@@ -8,7 +8,7 @@ SampleApp::Application.configure do
   # config.cache_classes = true
   
   # change config.cache_classes = false to get spork to run nicely
-  config.cache_classes = false
+  config.cache_classes = true
 
   # Log error messages when you accidentally call methods on nil.
   config.whiny_nils = true
